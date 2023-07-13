@@ -39,6 +39,12 @@
 
 }
 
+@media (max-width: 767px){
+    #perfil{
+        padding-top: 12%;
+    }
+}
+
 #laboral{
     padding: 5%;
     padding-left:  5%;

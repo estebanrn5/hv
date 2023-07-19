@@ -1,15 +1,10 @@
-#barra-nav {
-    padding: 0%;
-    border-style: solid;
-    border-color: white;
-    border-width: 3px;
-}
 
 #barra-nav-2{
     background-color: black !important;
     border-style: solid;
     border-color: white;
     border-width: 1px;
+    animation: slideDos 0.8s ease-in-out;
 }
 
 #barra-nav-2 .navlink, .navbar-brand, .navbar-toggler:not(.active):not(.collapsed) {
@@ -28,6 +23,19 @@
     border-style: solid;
     border-width: 3px;
     border-color: black;
+    
+}
+
+p, h1, li>a, a.enlaces{
+    transition: all 0.2s ease-in-out;
+}
+
+p:hover, h1:hover {
+    transform: scale(1.02);
+}
+
+li>a:hover, div.col>a:hover{
+    transform: scale(1.1);
 }
 
 #perfil{
@@ -36,7 +44,28 @@
     padding-right: 15%;
     margin: 0%;
     background-color: white;
+    animation: slideUno 0.8s ease-in-out;
 
+}
+
+@keyframes slideUno {
+    0% {
+        background-color:black;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes slideDos {
+    0% {
+        background-color: white ;
+    }
+
+    100% {
+        background-color:black;
+    }
 }
 
 @media (max-width: 767px){
@@ -51,6 +80,7 @@
     padding-right: 5%;
     margin: 0%;
     background-color: white;
+    animation: slideUno 0.5s ease-in-out;
 }
 
 #academia{
@@ -60,28 +90,24 @@
     margin: 0%;
     background-color: black;
     color: white;
+    animation: slideDos 0.5s ease-in-out;
 
 }
 
 #foot{
-    
     padding-bottom: 1%;
     padding-left:  5%;
     padding-right: 5%;
     margin: 0%;
     background-color: black;
-    color: white;
+    color: rgba(255, 255, 255, 0.596);
+    animation: slideDos 0.5s ease-in-out;
 }
 
 #body{
     background-color: gray;
     padding-top: 3.8%;
     font-family: 'Play', sans-serif;
-    /*
-    font-family: 'Anton', sans-serif;
-    font-family: 'IBM Plex Mono', monospace;
-    font-family: 'Play', sans-serif;
-    */
 }
 
 
@@ -112,3 +138,15 @@
     color: white !important;
 }
 
+a.enlaces, a.nav-link{
+    color: rgba(255, 255, 255, 0.747) !important; /* Cambia el color del texto del enlace */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+}
+
+a.enlaces:hover, #foot:hover, a.nav-link:hover{
+    color: white !important;
+}
+
+a.nav-link:active{
+    color: white !important;
+}

@@ -40,7 +40,7 @@ var estudios = [
                 "institucion" : "Universidad Distrital Francisco Jose de Caldas",
                 "programa" : "Ambiente y Desarrollo Local",
                 "tipo" : "Especialización",
-                "año" : 2019
+                "año" : 2023
             },
 	    {
                 "institucion" : "Universidad Militar Nueva Granada",

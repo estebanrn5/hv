@@ -42,12 +42,6 @@ var estudios = [
                 "tipo" : "Especialización",
                 "año" : 2019
             },
-	    {
-                "institucion" : "Universidad Militar Nueva Granada",
-                "programa" : "Geomática",
-                "tipo" : "Especialización",
-                "año" : 2019
-            }, 
             {
                 "institucion" : "CUN y Colnodo",
                 "programa" : "Competencias TIC",

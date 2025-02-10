@@ -208,7 +208,24 @@ estudios.forEach(function(estudio){
 
 
 var experiencia = [
+		
 		{
+			"empresa" : "Arce Rojas Consultores",
+			"cargo" : "Experto Desarrollo",
+			"inicio" : "2025-01-13",
+			"fin" : "Actualmente",
+			"meses" : Actualmente,
+			"descripcion" : "Análisis de datos, pruebas funcionales, y desarrollos."
+		},
+		{
+			"empresa" : "Konfirma",
+			"cargo" : "Experto Desarrollo",
+			"inicio" : "2024-02-08",
+			"fin" : "2025-01-03",
+			"meses" : 11,
+			"descripcion" : "Análisis de datos, pruebas funcionales, y desarrollos"
+		},
+	        {
 			"empresa" : "Ingicat",
 			"cargo" : "Profesional Experto SIG",
 			"inicio" : "2023-02-09",

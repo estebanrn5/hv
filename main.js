@@ -208,13 +208,12 @@ estudios.forEach(function(estudio){
 
 
 var experiencia = [
-		
 		{
 			"empresa" : "Arce Rojas Consultores",
 			"cargo" : "Experto Desarrollo",
 			"inicio" : "2025-01-13",
 			"fin" : "Actualmente",
-			"meses" : 1,
+			"meses" : 1.0,
 			"descripcion" : "Análisis de datos, pruebas funcionales, y desarrollos."
 		},
 		{
@@ -222,7 +221,7 @@ var experiencia = [
 			"cargo" : "Experto Desarrollo",
 			"inicio" : "2024-02-08",
 			"fin" : "2025-01-03",
-			"meses" : 11,
+			"meses" : 11.0,
 			"descripcion" : "Análisis de datos, pruebas funcionales, y desarrollos"
 		},
 	        {

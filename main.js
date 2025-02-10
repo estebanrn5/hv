@@ -214,7 +214,7 @@ var experiencia = [
 			"cargo" : "Experto Desarrollo",
 			"inicio" : "2025-01-13",
 			"fin" : "Actualmente",
-			"meses" : Actualmente,
+			"meses" : 1,
 			"descripcion" : "Análisis de datos, pruebas funcionales, y desarrollos."
 		},
 		{
